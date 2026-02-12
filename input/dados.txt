@@ -1,0 +1,5 @@
+1. A arquitetura de microsserviços permite que cada serviço seja escalado independentemente.
+2. O uso de Docker facilita a padronização de ambientes de desenvolvimento e produção.
+3. Testes unitários são essenciais para garantir a qualidade do código a longo prazo.
+4. A metodologia Kanban foca na visualização do fluxo de trabalho e na limitação do trabalho em progresso (WIP).
+5. Bancos de dados NoSQL são preferíveis para modelos de dados que exigem alta flexibilidade e escalabilidade horizontal.
