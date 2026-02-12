@@ -1,0 +1,23 @@
+
+Este repositório contém o projeto prático desenvolvido para o desafio de criação de um Chatbot inteligente capaz de consultar documentos específicos (PDFs/TXTs) utilizando conceitos de **IA Generativa** e **Embeddings**.
+
+## 🚀 Objetivo
+Simular um assistente virtual para estudantes de Engenharia de Software que ajuda a correlacionar informações de artigos técnicos e TCCs, utilizando a técnica de **RAG (Retrieval-Augmented Generation)**.
+
+## 🛠️ Tecnologias e Conceitos
+- **Python**: Linguagem principal.
+- **LangChain**: Framework de orquestração de IA.
+- **Embeddings**: Transformação de texto em vetores numéricos para busca semântica.
+- **Busca Vetorial**: Técnica para encontrar informações relevantes por similaridade de significado, não apenas palavras-chave.
+
+## 📂 Estrutura do Projeto
+- `inputs/`: Contém os arquivos de texto que servem como base de conhecimento para a IA.
+- `main.py`: Script demonstrativo da lógica de carregamento, fragmentação e busca.
+
+## 💡 Insights Obtidos
+1. **Contextualização**: A IA deixa de "alucinar" quando limitamos sua base de conhecimento a documentos confiáveis.
+2. **Chunking**: Aprendi que dividir o texto em pedaços menores é crucial para que a busca encontre exatamente o trecho relevante.
+3. **Escalabilidade**: Este modelo pode ser aplicado para analisar centenas de PDFs simultaneamente, facilitando revisões bibliográficas complexas.
+
+---
+Desenvolvido como parte do currículo de IA da [DIO](https://www.dio.me/).
